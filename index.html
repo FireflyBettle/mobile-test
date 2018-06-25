@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		(function(){
+   			var html=document.documentElement;
+   			var width=html.getBoundingClientRect().width;
+   			html.style.fontSize=width/18+'px';
+   		})()
+   		
+    </script>
+</head>
+<body>
+	<header id="header" class="clearfix">
+ 		<a href="#" class="left">北京市海淀区<span></span></a>
+ 		<input type="text" value="输入店铺、商品等" class="left" />
+ 		<a href="#" class="right">
+ 			<span1>我的</span1>
+ 		</a>
+	</header>
+</body>
+</html >
